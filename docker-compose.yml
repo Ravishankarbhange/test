@@ -1,0 +1,31 @@
+services:
+  frontend:
+    build: ./assignment2-ravishankarbhange
+    ports:
+      - "3000:3000"
+    networks:
+      - lenskart
+  backend:
+    build: ./server
+    ports:
+      - "5000:5000"
+    networks:
+      - lenskart
+    depends_on:
+      - mongo
+  mongo:
+    image: mongo:latest
+    ports:
+      - "27017:27017"
+    networks: 
+      - lenskart
+    volumes:
+      - mongo-data:/data/db 
+
+networks: 
+  lenskart:
+    driver: bridge
+
+volumes:
+  mongo-data:
+    driver: local   

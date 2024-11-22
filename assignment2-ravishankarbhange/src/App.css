@@ -1,0 +1,191 @@
+.logo {
+  font-family: "Bungee Hairline", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  padding-top: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  border-color: black;
+  border-top: 0px;
+  margin-left: 700px;
+}
+.logo > h1 {
+  margin-bottom: 0px;
+  border-bottom: 0px;
+  padding-bottom: 0px;
+}
+.nav {
+  height: 40px;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+.nav > ul {
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 20px;
+}
+.navoption {
+  color: white;
+  text-decoration: none;
+  padding-right: 30px;
+  padding-left: 30px;
+  list-style-type: none;
+}
+.logoName {
+  margin-top: 0px;
+}
+.header {
+  margin: 0px 0px 0px 0px;
+  border-bottom: 0px;
+  padding-bottom: 0px;
+}
+.body {
+  border: black;
+  background-color: #f9fcf6;
+  padding: 50px 100px;
+}
+.container {
+  padding-top: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #f9fcf6;
+}
+.card {
+  border-radius: 5px;
+  height: 270px;
+  width: 300px;
+  margin: 30px 30px;
+  box-shadow: 1px 1px 10px #333331;
+}
+.card:hover {
+  border-radius: 5px;
+  height: 270px;
+  width: 300px;
+  margin: 30px 30px;
+  box-shadow: 1px 1px 15px #333331;
+}
+.card > img {
+  border-radius: 5px;
+  height: 150px;
+  width: 300px;
+}
+.wishlistcard{
+  border-radius: 5px;
+  height: 320px;
+  width: 300px;
+  margin: 30px 30px;
+  box-shadow: 1px 1px 10px #333331;
+}
+.wishlistcard:hover{
+  border-radius: 5px;
+  height: 320px;
+  width: 300px;
+  margin: 30px 30px;
+  box-shadow: 1px 1px 15px #333331;
+}
+.wishlistcard > img {
+  border-radius: 5px;
+  height: 150px;
+  width: 300px;
+}
+.content > p{
+  padding: 2px 0px;
+  text-align: center;
+}
+.content > div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.content > div > p{
+  text-align: center;
+}
+.content p {
+  margin: 0 5px; 
+}
+.checked {
+  color: orange;
+}
+.alignleft{
+  text-align: left;
+  padding: 0px 20px;
+}
+.viewButton{
+  width: 280px;
+  height: 30px;
+  margin: 15px 10px;
+  padding: 0px 20px;
+  background-color: #47a784;
+  cursor: pointer;
+}
+.wishlistButton{
+  width: 280px;
+  height: 30px;
+  margin: 15px 10px;
+  padding: 0px 20px;
+  background-color: #da7c7c;
+  cursor: pointer;
+}
+.vpcontainer{
+  height: 600px;
+  padding: 5px 150px;
+  border: black solid 2px;
+  background-color: #f9fcf6;
+}
+.vpcard{
+  display: flex;
+  margin: 55px 0px;
+  height: 250px;
+  width: 1200px;
+  border: black solid 1px;
+}
+.vpcard > img{
+  height: 200px;
+}
+.flexmar{
+  margin: 50px 0px;
+}
+.flex{
+  padding: 20px 5px;
+}
+.vpcartcontainer{
+  width: 1200px;
+  padding: 5px 50px 5px 50px;
+  margin: 10px 100px 0px 110px;
+  background-color: #f9fcf6;
+}
+.vpcartcard{
+  display: flex;
+  margin: 55px 50px;
+  height: 150px;
+  width: 1100px;
+  border: black solid 1px;
+}
+.vpcartcard > img{
+  height: 150px;
+}
+.cartData{
+  padding-left: 50px;
+  width: 250px;
+}
+.buttonsCart {
+  display: flex;
+  flex-direction: column;
+  align-items: center;    
+  padding-left: 150px; 
+  gap: 10px;               
+}
+.invalid-user{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

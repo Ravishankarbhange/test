@@ -1,0 +1,85 @@
+/* Took help of chatgpt to generate a few css styles here but just to save my time, but I understood everything for sure */
+
+.login-container {
+    margin: 0;
+    overflow: hidden;
+    height: 100vh;
+    color: white;
+    padding: 16px;
+    background-image: url('https://pbs.twimg.com/media/GQcrPKfXoAA2Ba2.jpg');
+    background-size: cover;
+  }
+  
+  .logo {
+    height: 50px;
+    width: 150px;
+  }
+  
+  .centered-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+  }
+  
+  .login-box {
+    background-color: rgba(229, 216, 202, 0.8);
+    padding: 40px;
+    width: 350px;
+    opacity: 2;
+    border-radius: 5px;
+  }
+  
+  .title {
+    color: black;
+    margin-bottom: 40px;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .input-field {
+    margin-bottom: 20px;
+    width: 320px;
+    padding: 8px;
+    border-radius: 4px;
+    background-color: rgba(229, 216, 202, 0.8);
+    border: 0 1px solid black;
+    color: black;
+  }
+  
+  .login-button {
+    background-color: #e50914;
+    padding: 12px;
+    border-radius: 4px;
+    width: 338px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+    opacity: 1;
+    margin-top: 9px
+  }
+  
+  .signin-code-button {
+    background-color: gray;
+    padding: 12px;
+    border-radius: 4px;
+    width: 338px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+    opacity: 1;
+  }
+  
+  .center-text {
+    display: flex;
+    justify-content: center;
+    padding: 12px 0;
+    color: black;
+  }
+  .error-text{
+    color: black;
+  }

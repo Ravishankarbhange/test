@@ -1,0 +1,14 @@
+{
+    # Enable automatic HTTPS with Let's Encrypt
+    email ravishankar.bhange@gmail.com
+}
+
+# Proxy HTTP requests to the backend
+http:// {
+    reverse_proxy backend: 5000
+}
+
+# Proxy HTTPS requests
+https:// {
+    reverse_proxy backend: 5000
+}
